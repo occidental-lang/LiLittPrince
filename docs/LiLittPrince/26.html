@@ -13,7 +13,7 @@
 
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
+        <meta name="description" content="Traduction de Le Petit Prince in Interlingue / Occidental.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
@@ -331,21 +331,6 @@ criat. Il cadet lentmen quam un árbor cade. Sin alcun bruida il cadet in li san
         </div>
 
         
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3000/__livereload");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
-        
 
         
 
@@ -377,7 +362,6 @@ criat. Il cadet lentmen quam un árbor cade. Sin alcun bruida il cadet in li san
         <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
         <script>
             lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
-            document.onselectionchange = debounce(lookup, 500);
         </script>
         
 

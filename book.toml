@@ -4,6 +4,7 @@ language = "ie"
 multilingual = false
 src = "src"
 title = "Li Litt Prince"
+description = "Traduction de Le Petit Prince in Interlingue / Occidental."
 
 [output.html]
 theme = "src/theme"
