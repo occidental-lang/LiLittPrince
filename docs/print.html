@@ -173,6 +173,7 @@
                     <main>
                         <hr />
 <h1><a class="header" href="#li-litt-prince" id="li-litt-prince">Li Litt Prince</a></h1>
+<p style="text-align:center;"><img src="LiLittPrince/img/cover.png"></p>
 <p style="text-align:center;">de Antoine de Saint-Exupéry</p>
 <p style="text-align:center;">Traductet de Thomas Schmidt</p>
 <hr />
@@ -1182,6 +1183,21 @@ lontan, yo implora vos – atende un poc, exactmen sub li stelle! Si tande un in
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         

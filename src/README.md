@@ -3,6 +3,8 @@
 
 # Li Litt Prince
 
+<p style="text-align:center;"><img src="LiLittPrince/img/cover.png"></p>
+
 <p style="text-align:center;">de Antoine de Saint-Exupéry</p>
 
 <p style="text-align:center;">Traductet de Thomas Schmidt</p>
